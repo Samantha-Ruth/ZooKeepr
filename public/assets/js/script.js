@@ -12,7 +12,7 @@ const handleAnimalFormSubmit = event => {
   let diet;
 
   for (let i = 0; i < dietRadioHTML.length; i += 1) {
-    if (dietRadioHTML[i].checked) {
+    if (dietRadioHTML[i].checkeds) {
       diet = dietRadioHTML[i].value;
     }
   }
