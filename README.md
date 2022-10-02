@@ -15,40 +15,32 @@ This project helped me understand how the back end is linked to the front throug
 
 ## Installation
 
+
 If the user already has node installed on their device, they can download this project and run "npm init" and then "npm i express" to download the express dependecy.  If they are interested in running the tests, enter "npm i --save-dev jest".  Next, the user should enter "npm start" to launch the server and then view the website at localhost:3001.
 
 ## Usage
 
-When the user navigates to the server's page (localhost:3001), they will be presented with a title page. 
+When the user navigates to the server's page (localhost:3001), they will be presented with a title page where they are given a brief description of the website, the ability to see animals and zookeepers, and able to enter new animals and zookeepers.
 
-![Title Page](https://user-images.githubusercontent.com/64170123/177059433-513ab019-e128-4060-b3d2-b1e4e1c5e77c.jpg)
+![Screen Shot 2022-10-02 at 7 39 23 AM](https://user-images.githubusercontent.com/64170123/193457148-0cf21fea-27c2-4ece-a691-be7d1902a455.png)
 
+![Screen Shot 2022-10-02 at 7 39 47 AM](https://user-images.githubusercontent.com/64170123/193457150-4e6f80c0-330f-4480-a677-ff6eb1f94e4a.png)
 
-When they click on the "Get Started" button, it will take the user to the note-taker page.  From here, previous notes saved in the database will desplay on the left side of the page, with a delete button next to them.  The user is also given a "+" button at the top right of the page.  When they click on this "+" button, they can create a new note and save it using the POST functionality. 
+When the clck on the "View Animals" button, they are taken to the animals page:
 
-Unfortunately, while I have set up the GET and POST functionality to get all the notes saved as well as locate individual notes and post new notes, I have not fully figured out what is missing in the front-end javascript to make it work.  The current project is displaying nothing on the note page and does not allow me to save new notes.  
+![Screen Shot 2022-10-02 at 7 40 10 AM](https://user-images.githubusercontent.com/64170123/193457152-a723f472-2e28-45cf-af23-69d14f5e33e8.png)
 
-Image of working "GET":
+When the clck on the "View ZooKeepers" button, they are taken to a page of zookeepers:
 
-![Get all notes](https://user-images.githubusercontent.com/64170123/177059374-a4fa3be0-d35a-4274-af81-90baf0d9a4ed.jpg)
-
-Image of working "GET single note":
-
-![Get Single Note](https://user-images.githubusercontent.com/64170123/177059375-b0a24fc9-a323-49be-8cd4-956052a87d51.jpg)
-
-Image of working "POST":
-
-![Post New Note](https://user-images.githubusercontent.com/64170123/177059376-3bdcb661-165a-45bc-a599-fd71c22bcb0f.jpg)
+![Screen Shot 2022-10-02 at 7 40 20 AM](https://user-images.githubusercontent.com/64170123/193457156-ff8b8b73-8c4b-4e4f-aff5-270e7285ac5e.png)
 
 
 ## Links
 
 
-Link to video of project: 
+The link to the project is here: https://samantha-ruth.github.io/ZooKeepr/
 
-The link to the project is here: https://samantha-ruth.github.io/Note-Taker/
-
-The url of the Git repository is here: https://github.com/Samantha-Ruth/Note-Taker
+The url of the Git repository is here: https://github.com/Samantha-Ruth/ZooKeepr
 
 
 ## Questions
